@@ -43,25 +43,25 @@ local build3 = Instance.new("TextButton")
 local build4 = Instance.new("TextButton")
 local build5 = Instance.new("TextButton")
 local build6 = Instance.new("TextButton")
+local build7 = Instance.new("TextButton")
+local build8 = Instance.new("TextButton")
+local build9 = Instance.new("TextButton")
 local TextButton_13 = Instance.new("TextButton")
 local TextButton_14 = Instance.new("TextButton")
 local TextButton_15 = Instance.new("TextButton")
 local TextButton_16 = Instance.new("TextButton")
 local TextButton_17 = Instance.new("TextButton")
 local TextButton_18 = Instance.new("TextButton")
-local TextButton_19 = Instance.new("TextButton")
-local TextButton_20 = Instance.new("TextButton")
-local TextButton_21 = Instance.new("TextButton")
 local TrollFrame = Instance.new("Frame")
 local PlayerName = Instance.new("TextBox")
 local trap = Instance.new("TextButton")
 local view = Instance.new("TextButton")
 local tpto = Instance.new("TextButton")
 local copyname = Instance.new("TextButton")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local TextButton_21 = Instance.new("TextButton")
 local TextButton_22 = Instance.new("TextButton")
-local TextButton_23 = Instance.new("TextButton")
-local TextButton_24 = Instance.new("TextButton")
-local TextButton_25 = Instance.new("TextButton")
 local TeleportFrame = Instance.new("Frame")
 local UIGridLayout_4 = Instance.new("UIGridLayout")
 local tp1 = Instance.new("TextButton")
@@ -75,10 +75,10 @@ local tp8 = Instance.new("TextButton")
 local tp9 = Instance.new("TextButton")
 local tp10 = Instance.new("TextButton")
 local tp11 = Instance.new("TextButton")
+local TextButton_23 = Instance.new("TextButton")
+local TextButton_24 = Instance.new("TextButton")
+local TextButton_25 = Instance.new("TextButton")
 local TextButton_26 = Instance.new("TextButton")
-local TextButton_27 = Instance.new("TextButton")
-local TextButton_28 = Instance.new("TextButton")
-local TextButton_29 = Instance.new("TextButton")
 local Title = Instance.new("TextLabel")
 local Minimize = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
@@ -448,8 +448,8 @@ build3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 build3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 build3.BorderSizePixel = 0
 build3.Size = UDim2.new(0, 200, 0, 50)
-build3.Visible = false
 build3.Font = Enum.Font.SourceSans
+build3.Text = "Project"
 build3.TextColor3 = Color3.fromRGB(255, 255, 255)
 build3.TextSize = 18.000
 build3.TextStrokeTransparency = 0.300
@@ -460,8 +460,8 @@ build4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 build4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 build4.BorderSizePixel = 0
 build4.Size = UDim2.new(0, 200, 0, 50)
-build4.Visible = false
 build4.Font = Enum.Font.SourceSans
+build4.Text = "Finger"
 build4.TextColor3 = Color3.fromRGB(255, 255, 255)
 build4.TextSize = 18.000
 build4.TextStrokeTransparency = 0.300
@@ -472,8 +472,8 @@ build5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 build5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 build5.BorderSizePixel = 0
 build5.Size = UDim2.new(0, 200, 0, 50)
-build5.Visible = false
 build5.Font = Enum.Font.SourceSans
+build5.Text = "Rocket"
 build5.TextColor3 = Color3.fromRGB(255, 255, 255)
 build5.TextSize = 18.000
 build5.TextStrokeTransparency = 0.300
@@ -489,6 +489,42 @@ build6.Font = Enum.Font.SourceSans
 build6.TextColor3 = Color3.fromRGB(255, 255, 255)
 build6.TextSize = 18.000
 build6.TextStrokeTransparency = 0.300
+
+build7.Name = "build7"
+build7.Parent = BuildFrame
+build7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build7.BorderSizePixel = 0
+build7.Size = UDim2.new(0, 200, 0, 50)
+build7.Visible = false
+build7.Font = Enum.Font.SourceSans
+build7.TextColor3 = Color3.fromRGB(255, 255, 255)
+build7.TextSize = 18.000
+build7.TextStrokeTransparency = 0.300
+
+build8.Name = "build8"
+build8.Parent = BuildFrame
+build8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build8.BorderSizePixel = 0
+build8.Size = UDim2.new(0, 200, 0, 50)
+build8.Visible = false
+build8.Font = Enum.Font.SourceSans
+build8.TextColor3 = Color3.fromRGB(255, 255, 255)
+build8.TextSize = 18.000
+build8.TextStrokeTransparency = 0.300
+
+build9.Name = "build9"
+build9.Parent = BuildFrame
+build9.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build9.BorderSizePixel = 0
+build9.Size = UDim2.new(0, 200, 0, 50)
+build9.Visible = false
+build9.Font = Enum.Font.SourceSans
+build9.TextColor3 = Color3.fromRGB(255, 255, 255)
+build9.TextSize = 18.000
+build9.TextStrokeTransparency = 0.300
 
 TextButton_13.Parent = BuildFrame
 TextButton_13.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
@@ -555,39 +591,6 @@ TextButton_18.Font = Enum.Font.SourceSans
 TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_18.TextSize = 18.000
 TextButton_18.TextStrokeTransparency = 0.300
-
-TextButton_19.Parent = BuildFrame
-TextButton_19.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_19.BorderSizePixel = 0
-TextButton_19.Size = UDim2.new(0, 200, 0, 50)
-TextButton_19.Visible = false
-TextButton_19.Font = Enum.Font.SourceSans
-TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_19.TextSize = 18.000
-TextButton_19.TextStrokeTransparency = 0.300
-
-TextButton_20.Parent = BuildFrame
-TextButton_20.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_20.BorderSizePixel = 0
-TextButton_20.Size = UDim2.new(0, 200, 0, 50)
-TextButton_20.Visible = false
-TextButton_20.Font = Enum.Font.SourceSans
-TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_20.TextSize = 18.000
-TextButton_20.TextStrokeTransparency = 0.300
-
-TextButton_21.Parent = BuildFrame
-TextButton_21.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_21.BorderSizePixel = 0
-TextButton_21.Size = UDim2.new(0, 200, 0, 50)
-TextButton_21.Visible = false
-TextButton_21.Font = Enum.Font.SourceSans
-TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_21.TextSize = 18.000
-TextButton_21.TextStrokeTransparency = 0.300
 
 TrollFrame.Name = "TrollFrame"
 TrollFrame.Parent = ActiveFrame
@@ -666,57 +669,57 @@ copyname.TextColor3 = Color3.fromRGB(255, 255, 255)
 copyname.TextSize = 22.000
 copyname.TextStrokeTransparency = 0.000
 
+TextButton_19.Parent = TrollFrame
+TextButton_19.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BorderSizePixel = 0
+TextButton_19.Position = UDim2.new(0.138138145, 0, 0.548117161, 0)
+TextButton_19.Size = UDim2.new(0, 113, 0, 38)
+TextButton_19.Visible = false
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "Trap"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.TextSize = 22.000
+TextButton_19.TextStrokeTransparency = 0.000
+
+TextButton_20.Parent = TrollFrame
+TextButton_20.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.BorderSizePixel = 0
+TextButton_20.Position = UDim2.new(0.537537515, 0, 0.548117161, 0)
+TextButton_20.Size = UDim2.new(0, 112, 0, 38)
+TextButton_20.Visible = false
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = "Trap"
+TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.TextSize = 22.000
+TextButton_20.TextStrokeTransparency = 0.000
+
+TextButton_21.Parent = TrollFrame
+TextButton_21.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.BorderSizePixel = 0
+TextButton_21.Position = UDim2.new(0.138138145, 0, 0.744769871, 0)
+TextButton_21.Size = UDim2.new(0, 113, 0, 38)
+TextButton_21.Visible = false
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "Trap"
+TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_21.TextSize = 22.000
+TextButton_21.TextStrokeTransparency = 0.000
+
 TextButton_22.Parent = TrollFrame
 TextButton_22.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_22.BorderSizePixel = 0
-TextButton_22.Position = UDim2.new(0.138138145, 0, 0.548117161, 0)
-TextButton_22.Size = UDim2.new(0, 113, 0, 38)
+TextButton_22.Position = UDim2.new(0.537537515, 0, 0.744769871, 0)
+TextButton_22.Size = UDim2.new(0, 112, 0, 38)
 TextButton_22.Visible = false
 TextButton_22.Font = Enum.Font.SourceSans
 TextButton_22.Text = "Trap"
 TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_22.TextSize = 22.000
 TextButton_22.TextStrokeTransparency = 0.000
-
-TextButton_23.Parent = TrollFrame
-TextButton_23.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_23.BorderSizePixel = 0
-TextButton_23.Position = UDim2.new(0.537537515, 0, 0.548117161, 0)
-TextButton_23.Size = UDim2.new(0, 112, 0, 38)
-TextButton_23.Visible = false
-TextButton_23.Font = Enum.Font.SourceSans
-TextButton_23.Text = "Trap"
-TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_23.TextSize = 22.000
-TextButton_23.TextStrokeTransparency = 0.000
-
-TextButton_24.Parent = TrollFrame
-TextButton_24.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_24.BorderSizePixel = 0
-TextButton_24.Position = UDim2.new(0.138138145, 0, 0.744769871, 0)
-TextButton_24.Size = UDim2.new(0, 113, 0, 38)
-TextButton_24.Visible = false
-TextButton_24.Font = Enum.Font.SourceSans
-TextButton_24.Text = "Trap"
-TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_24.TextSize = 22.000
-TextButton_24.TextStrokeTransparency = 0.000
-
-TextButton_25.Parent = TrollFrame
-TextButton_25.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_25.BorderSizePixel = 0
-TextButton_25.Position = UDim2.new(0.537537515, 0, 0.744769871, 0)
-TextButton_25.Size = UDim2.new(0, 112, 0, 38)
-TextButton_25.Visible = false
-TextButton_25.Font = Enum.Font.SourceSans
-TextButton_25.Text = "Trap"
-TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_25.TextSize = 22.000
-TextButton_25.TextStrokeTransparency = 0.000
 
 TeleportFrame.Name = "TeleportFrame"
 TeleportFrame.Parent = ActiveFrame
@@ -866,6 +869,42 @@ tp11.TextColor3 = Color3.fromRGB(255, 255, 255)
 tp11.TextSize = 16.000
 tp11.TextStrokeTransparency = 0.000
 
+TextButton_23.Parent = TeleportFrame
+TextButton_23.Active = false
+TextButton_23.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.BorderSizePixel = 0
+TextButton_23.Size = UDim2.new(0, 200, 0, 50)
+TextButton_23.Visible = false
+TextButton_23.Font = Enum.Font.SourceSans
+TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.TextSize = 16.000
+TextButton_23.TextStrokeTransparency = 0.000
+
+TextButton_24.Parent = TeleportFrame
+TextButton_24.Active = false
+TextButton_24.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.BorderSizePixel = 0
+TextButton_24.Size = UDim2.new(0, 200, 0, 50)
+TextButton_24.Visible = false
+TextButton_24.Font = Enum.Font.SourceSans
+TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_24.TextSize = 16.000
+TextButton_24.TextStrokeTransparency = 0.000
+
+TextButton_25.Parent = TeleportFrame
+TextButton_25.Active = false
+TextButton_25.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.BorderSizePixel = 0
+TextButton_25.Size = UDim2.new(0, 200, 0, 50)
+TextButton_25.Visible = false
+TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.TextSize = 16.000
+TextButton_25.TextStrokeTransparency = 0.000
+
 TextButton_26.Parent = TeleportFrame
 TextButton_26.Active = false
 TextButton_26.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
@@ -878,42 +917,6 @@ TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_26.TextSize = 16.000
 TextButton_26.TextStrokeTransparency = 0.000
 
-TextButton_27.Parent = TeleportFrame
-TextButton_27.Active = false
-TextButton_27.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_27.BorderSizePixel = 0
-TextButton_27.Size = UDim2.new(0, 200, 0, 50)
-TextButton_27.Visible = false
-TextButton_27.Font = Enum.Font.SourceSans
-TextButton_27.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_27.TextSize = 16.000
-TextButton_27.TextStrokeTransparency = 0.000
-
-TextButton_28.Parent = TeleportFrame
-TextButton_28.Active = false
-TextButton_28.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_28.BorderSizePixel = 0
-TextButton_28.Size = UDim2.new(0, 200, 0, 50)
-TextButton_28.Visible = false
-TextButton_28.Font = Enum.Font.SourceSans
-TextButton_28.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_28.TextSize = 16.000
-TextButton_28.TextStrokeTransparency = 0.000
-
-TextButton_29.Parent = TeleportFrame
-TextButton_29.Active = false
-TextButton_29.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-TextButton_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_29.BorderSizePixel = 0
-TextButton_29.Size = UDim2.new(0, 200, 0, 50)
-TextButton_29.Visible = false
-TextButton_29.Font = Enum.Font.SourceSans
-TextButton_29.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_29.TextSize = 16.000
-TextButton_29.TextStrokeTransparency = 0.000
-
 Title.Name = "Title"
 Title.Parent = TopFrame
 Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -923,7 +926,7 @@ Title.BorderSizePixel = 0
 Title.Position = UDim2.new(-0.00453500915, 0, 0, 0)
 Title.Size = UDim2.new(0, 441, 0, 39)
 Title.Font = Enum.Font.SourceSans
-Title.Text = "The Project"
+Title.Text = "Divinity"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 28.000
 Title.TextStrokeTransparency = 0.300
@@ -977,7 +980,7 @@ UICorner_9.Parent = Maximize
 
 -- Scripts:
 
-local function NHGHH_fake_script() -- money.LocalScript 
+local function TJZWFWY_fake_script() -- money.LocalScript 
 	local script = Instance.new('LocalScript', money)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -987,8 +990,8 @@ local function NHGHH_fake_script() -- money.LocalScript
 		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TeleportFrame.Visible = false
 	end)
 end
-coroutine.wrap(NHGHH_fake_script)()
-local function KDEOYJS_fake_script() -- build.LocalScript 
+coroutine.wrap(TJZWFWY_fake_script)()
+local function RCQL_fake_script() -- build.LocalScript 
 	local script = Instance.new('LocalScript', build)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -998,8 +1001,8 @@ local function KDEOYJS_fake_script() -- build.LocalScript
 		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TeleportFrame.Visible = false
 	end)
 end
-coroutine.wrap(KDEOYJS_fake_script)()
-local function UKVQNKD_fake_script() -- troll.LocalScript 
+coroutine.wrap(RCQL_fake_script)()
+local function ONGOPQN_fake_script() -- troll.LocalScript 
 	local script = Instance.new('LocalScript', troll)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1009,8 +1012,8 @@ local function UKVQNKD_fake_script() -- troll.LocalScript
 		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TeleportFrame.Visible = false
 	end)
 end
-coroutine.wrap(UKVQNKD_fake_script)()
-local function DTIHTD_fake_script() -- teleport.LocalScript 
+coroutine.wrap(ONGOPQN_fake_script)()
+local function OJDBUTV_fake_script() -- teleport.LocalScript 
 	local script = Instance.new('LocalScript', teleport)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1020,8 +1023,8 @@ local function DTIHTD_fake_script() -- teleport.LocalScript
 		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TrollFrame.Visible = false
 	end)
 end
-coroutine.wrap(DTIHTD_fake_script)()
-local function AVLYDC_fake_script() -- farm1.LocalScript 
+coroutine.wrap(OJDBUTV_fake_script)()
+local function ZRWY_fake_script() -- farm1.LocalScript 
 	local script = Instance.new('LocalScript', farm1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1042,8 +1045,8 @@ local function AVLYDC_fake_script() -- farm1.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(AVLYDC_fake_script)()
-local function ARQFVP_fake_script() -- farm2.LocalScript 
+coroutine.wrap(ZRWY_fake_script)()
+local function KCAAJ_fake_script() -- farm2.LocalScript 
 	local script = Instance.new('LocalScript', farm2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1116,8 +1119,8 @@ local function ARQFVP_fake_script() -- farm2.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
 	end)
 end
-coroutine.wrap(ARQFVP_fake_script)()
-local function FSPLPGY_fake_script() -- farm3.LocalScript 
+coroutine.wrap(KCAAJ_fake_script)()
+local function IITJ_fake_script() -- farm3.LocalScript 
 	local script = Instance.new('LocalScript', farm3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1133,24 +1136,48 @@ local function FSPLPGY_fake_script() -- farm3.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
 	end)
 end
-coroutine.wrap(FSPLPGY_fake_script)()
-local function OHOML_fake_script() -- build1.LocalScript 
+coroutine.wrap(IITJ_fake_script)()
+local function LSPTUV_fake_script() -- build1.LocalScript 
 	local script = Instance.new('LocalScript', build1)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/flag"))()
 	end)
 end
-coroutine.wrap(OHOML_fake_script)()
-local function LQDQST_fake_script() -- build2.LocalScript 
+coroutine.wrap(LSPTUV_fake_script)()
+local function HPWHC_fake_script() -- build2.LocalScript 
 	local script = Instance.new('LocalScript', build2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/n"))()
 	end)
 end
-coroutine.wrap(LQDQST_fake_script)()
-local function BVNNTT_fake_script() -- PlayerName.Autofill 
+coroutine.wrap(HPWHC_fake_script)()
+local function PMLG_fake_script() -- build3.LocalScript 
+	local script = Instance.new('LocalScript', build3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/project"))()
+	end)
+end
+coroutine.wrap(PMLG_fake_script)()
+local function HDEPUI_fake_script() -- build4.LocalScript 
+	local script = Instance.new('LocalScript', build4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/fdu"))()
+	end)
+end
+coroutine.wrap(HDEPUI_fake_script)()
+local function DRECS_fake_script() -- build5.LocalScript 
+	local script = Instance.new('LocalScript', build5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/pp"))()
+	end)
+end
+coroutine.wrap(DRECS_fake_script)()
+local function OKEADMS_fake_script() -- PlayerName.Autofill 
 	local script = Instance.new('LocalScript', PlayerName)
 
 	local PlayerName = script.Parent
@@ -1163,8 +1190,8 @@ local function BVNNTT_fake_script() -- PlayerName.Autofill
 		end
 	end)
 end
-coroutine.wrap(BVNNTT_fake_script)()
-local function FYJECUI_fake_script() -- trap.LocalScript 
+coroutine.wrap(OKEADMS_fake_script)()
+local function UTMTV_fake_script() -- trap.LocalScript 
 	local script = Instance.new('LocalScript', trap)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1650,8 +1677,8 @@ local function FYJECUI_fake_script() -- trap.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FYJECUI_fake_script)()
-local function YREPQ_fake_script() -- view.LocalScript 
+coroutine.wrap(UTMTV_fake_script)()
+local function IRTB_fake_script() -- view.LocalScript 
 	local script = Instance.new('LocalScript', view)
 
 	local toggle_view = false
@@ -1674,8 +1701,8 @@ local function YREPQ_fake_script() -- view.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YREPQ_fake_script)()
-local function TYHJ_fake_script() -- tpto.LocalScript 
+coroutine.wrap(IRTB_fake_script)()
+local function SPUC_fake_script() -- tpto.LocalScript 
 	local script = Instance.new('LocalScript', tpto)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1689,104 +1716,104 @@ local function TYHJ_fake_script() -- tpto.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TYHJ_fake_script)()
-local function UOFXPK_fake_script() -- copyname.LocalScript 
+coroutine.wrap(SPUC_fake_script)()
+local function BLKF_fake_script() -- copyname.LocalScript 
 	local script = Instance.new('LocalScript', copyname)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard(game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TrollFrame.PlayerName.Text)
 	end)
 end
-coroutine.wrap(UOFXPK_fake_script)()
-local function DCMSVS_fake_script() -- tp1.LocalScript 
+coroutine.wrap(BLKF_fake_script)()
+local function BPTODY_fake_script() -- tp1.LocalScript 
 	local script = Instance.new('LocalScript', tp1)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(554.0108642578125, 110.39511108398438, 654.689453125)
 	end)
 end
-coroutine.wrap(DCMSVS_fake_script)()
-local function GWHFHBV_fake_script() -- tp2.LocalScript 
+coroutine.wrap(BPTODY_fake_script)()
+local function DRTQUSU_fake_script() -- tp2.LocalScript 
 	local script = Instance.new('LocalScript', tp2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-130.8605499267578, 2.9999992847442627, -143.34552001953125)
 	end)
 end
-coroutine.wrap(GWHFHBV_fake_script)()
-local function VGHMSRY_fake_script() -- tp3.LocalScript 
+coroutine.wrap(DRTQUSU_fake_script)()
+local function HEKNH_fake_script() -- tp3.LocalScript 
 	local script = Instance.new('LocalScript', tp3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(274.5707702636719, 3, 680.4274291992188)
 	end)
 end
-coroutine.wrap(VGHMSRY_fake_script)()
-local function XNKLJFN_fake_script() -- tp4.LocalScript 
+coroutine.wrap(HEKNH_fake_script)()
+local function AXVLO_fake_script() -- tp4.LocalScript 
 	local script = Instance.new('LocalScript', tp4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-320.0450134277344, 15.604766845703125, 346.0688781738281)
 	end)
 end
-coroutine.wrap(XNKLJFN_fake_script)()
-local function EYSHA_fake_script() -- tp5.LocalScript 
+coroutine.wrap(AXVLO_fake_script)()
+local function ZEVDZ_fake_script() -- tp5.LocalScript 
 	local script = Instance.new('LocalScript', tp5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(22.05930519104004, 3.33622145652771, 683.7430419921875)
 	end)
 end
-coroutine.wrap(EYSHA_fake_script)()
-local function PWEKJQ_fake_script() -- tp6.LocalScript 
+coroutine.wrap(ZEVDZ_fake_script)()
+local function URXDZMB_fake_script() -- tp6.LocalScript 
 	local script = Instance.new('LocalScript', tp6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-259.0490417480469, 227.0027313232422, 489.1159973144531)
 	end)
 end
-coroutine.wrap(PWEKJQ_fake_script)()
-local function WHTM_fake_script() -- tp7.LocalScript 
+coroutine.wrap(URXDZMB_fake_script)()
+local function HFBTF_fake_script() -- tp7.LocalScript 
 	local script = Instance.new('LocalScript', tp7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(668.0225219726562, 47.505279541015625, 20.11323356628418)
 	end)
 end
-coroutine.wrap(WHTM_fake_script)()
-local function RLAAQKS_fake_script() -- tp8.LocalScript 
+coroutine.wrap(HFBTF_fake_script)()
+local function ZHWRWHF_fake_script() -- tp8.LocalScript 
 	local script = Instance.new('LocalScript', tp8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(908.0208740234375, 2.999999761581421, -174.08912658691406)
 	end)
 end
-coroutine.wrap(RLAAQKS_fake_script)()
-local function RHOSZBN_fake_script() -- tp9.LocalScript 
+coroutine.wrap(ZHWRWHF_fake_script)()
+local function WVESLS_fake_script() -- tp9.LocalScript 
 	local script = Instance.new('LocalScript', tp9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(939.853759765625, 15.60477066040039, 683.2308959960938)
 	end)
 end
-coroutine.wrap(RHOSZBN_fake_script)()
-local function MWBUYM_fake_script() -- tp10.LocalScript 
+coroutine.wrap(WVESLS_fake_script)()
+local function EYFWSWS_fake_script() -- tp10.LocalScript 
 	local script = Instance.new('LocalScript', tp10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(871.5241088867188, 3.000000238418579, -17.30307388305664)
 	end)
 end
-coroutine.wrap(MWBUYM_fake_script)()
-local function VCFXIOW_fake_script() -- tp11.LocalScript 
+coroutine.wrap(EYFWSWS_fake_script)()
+local function WCXM_fake_script() -- tp11.LocalScript 
 	local script = Instance.new('LocalScript', tp11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1282.0013427734375, 91.79984283447266, 1318.101806640625)
 	end)
 end
-coroutine.wrap(VCFXIOW_fake_script)()
-local function MKIMN_fake_script() -- Minimize.LocalScript 
+coroutine.wrap(WCXM_fake_script)()
+local function XSKFP_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1795,16 +1822,16 @@ local function MKIMN_fake_script() -- Minimize.LocalScript
 		game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.Maximize.Visible = true
 	end)
 end
-coroutine.wrap(MKIMN_fake_script)()
-local function KUAO_fake_script() -- Close.LocalScript 
+coroutine.wrap(XSKFP_fake_script)()
+local function STGHTQB_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.PlayerGui.Divinity:Destroy()
 	end)
 end
-coroutine.wrap(KUAO_fake_script)()
-local function EUEWML_fake_script() -- Maximize.LocalScript 
+coroutine.wrap(STGHTQB_fake_script)()
+local function DIVDBKB_fake_script() -- Maximize.LocalScript 
 	local script = Instance.new('LocalScript', Maximize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1813,12 +1840,12 @@ local function EUEWML_fake_script() -- Maximize.LocalScript
 		game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.Minimize.Visible = true
 	end)
 end
-coroutine.wrap(EUEWML_fake_script)()
-local function GLHOS_fake_script() -- TopFrame.LocalScript 
+coroutine.wrap(DIVDBKB_fake_script)()
+local function LWXSHE_fake_script() -- TopFrame.LocalScript 
 	local script = Instance.new('LocalScript', TopFrame)
 
 	script.Parent.Draggable = true
 end
-coroutine.wrap(GLHOS_fake_script)()
+coroutine.wrap(LWXSHE_fake_script)()
 wait(.3)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/trap/refs/heads/main/trap"))()
