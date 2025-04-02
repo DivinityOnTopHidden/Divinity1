@@ -509,11 +509,14 @@ build8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 build8.BorderSizePixel = 0
 build8.Position = UDim2.new(0.342342347, 0, 0.418410033, 0)
 build8.Size = UDim2.new(0, 200, 0, 50)
-build8.Visible = false
 build8.Font = Enum.Font.SourceSans
+build8.Text = "Stickman"
 build8.TextColor3 = Color3.fromRGB(255, 255, 255)
 build8.TextSize = 18.000
 build8.TextStrokeTransparency = 0.300
+build8.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/stickman"))()
+end)
 
 build9.Name = "build9"
 build9.Parent = BuildFrame
