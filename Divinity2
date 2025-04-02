@@ -1,1 +1,1883 @@
+if game.Players.LocalPlayer.PlayerGui:FindFirstChild("Divinity") then
+	game.Players.LocalPlayer.PlayerGui.Divinity:Destroy()
+end
+local Divinity = Instance.new("ScreenGui")
+local TopFrame = Instance.new("Frame")
+local ActiveFrame = Instance.new("Frame")
+local TabFrame = Instance.new("Frame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local money = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local build = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local troll = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local teleport = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local MoneyFrame = Instance.new("Frame")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local farm1 = Instance.new("TextButton")
+local farm2 = Instance.new("TextButton")
+local farm3 = Instance.new("TextButton")
+local farm4 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local farm5 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local BuildFrame = Instance.new("Frame")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
+local build1 = Instance.new("TextButton")
+local build2 = Instance.new("TextButton")
+local build3 = Instance.new("TextButton")
+local build4 = Instance.new("TextButton")
+local build5 = Instance.new("TextButton")
+local build6 = Instance.new("TextButton")
+local build7 = Instance.new("TextButton")
+local build8 = Instance.new("TextButton")
+local build9 = Instance.new("TextButton")
+local build10 = Instance.new("TextButton")
+local build11 = Instance.new("TextButton")
+local build12 = Instance.new("TextButton")
+local build13 = Instance.new("TextButton")
+local build14 = Instance.new("TextButton")
+local build15 = Instance.new("TextButton")
+local TrollFrame = Instance.new("Frame")
+local PlayerName = Instance.new("TextBox")
+local trap = Instance.new("TextButton")
+local view = Instance.new("TextButton")
+local tpto = Instance.new("TextButton")
+local copyname = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local TextButton_16 = Instance.new("TextButton")
+local TeleportFrame = Instance.new("Frame")
+local UIGridLayout_4 = Instance.new("UIGridLayout")
+local tp1 = Instance.new("TextButton")
+local tp2 = Instance.new("TextButton")
+local tp3 = Instance.new("TextButton")
+local tp4 = Instance.new("TextButton")
+local tp5 = Instance.new("TextButton")
+local tp6 = Instance.new("TextButton")
+local tp7 = Instance.new("TextButton")
+local tp8 = Instance.new("TextButton")
+local tp9 = Instance.new("TextButton")
+local tp10 = Instance.new("TextButton")
+local tp11 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local Minimize = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Maximize = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
 
+--Properties:
+
+Divinity.Name = "Divinity"
+Divinity.Parent = game.Players.LocalPlayer.PlayerGui
+Divinity.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Divinity.ResetOnSpawn = false
+
+TopFrame.Name = "TopFrame"
+TopFrame.Parent = Divinity
+TopFrame.Active = true
+TopFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopFrame.BackgroundTransparency = 0.300
+TopFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TopFrame.BorderSizePixel = 0
+TopFrame.Position = UDim2.new(0.259281427, 0, 0.402985066, 0)
+TopFrame.Size = UDim2.new(0, 441, 0, 39)
+
+ActiveFrame.Name = "ActiveFrame"
+ActiveFrame.Parent = TopFrame
+ActiveFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ActiveFrame.BackgroundTransparency = 0.300
+ActiveFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ActiveFrame.BorderSizePixel = 0
+ActiveFrame.Position = UDim2.new(-0.000866948336, 0, 1, 0)
+ActiveFrame.Size = UDim2.new(0, 441, 0, 294)
+
+TabFrame.Name = "TabFrame"
+TabFrame.Parent = ActiveFrame
+TabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabFrame.BackgroundTransparency = 1.000
+TabFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TabFrame.BorderSizePixel = 0
+TabFrame.Position = UDim2.new(0.0181405898, 0, 0.0436988883, 0)
+TabFrame.Size = UDim2.new(0, 74, 0, 276)
+
+UIGridLayout.Parent = TabFrame
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 5, 0, 12)
+UIGridLayout.CellSize = UDim2.new(0, 80, 0, 35)
+
+money.Name = "money"
+money.Parent = TabFrame
+money.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+money.BackgroundTransparency = 0.300
+money.BorderColor3 = Color3.fromRGB(0, 0, 0)
+money.BorderSizePixel = 0
+money.Size = UDim2.new(0, 200, 0, 50)
+money.Font = Enum.Font.SourceSans
+money.Text = "Money"
+money.TextColor3 = Color3.fromRGB(255, 255, 255)
+money.TextSize = 22.000
+money.TextStrokeTransparency = 0.300
+
+UICorner.CornerRadius = UDim.new(0, 12)
+UICorner.Parent = money
+
+build.Name = "build"
+build.Parent = TabFrame
+build.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+build.BackgroundTransparency = 0.300
+build.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build.BorderSizePixel = 0
+build.Size = UDim2.new(0, 200, 0, 50)
+build.Font = Enum.Font.SourceSans
+build.Text = "Build"
+build.TextColor3 = Color3.fromRGB(255, 255, 255)
+build.TextSize = 22.000
+build.TextStrokeTransparency = 0.300
+
+UICorner_2.CornerRadius = UDim.new(0, 12)
+UICorner_2.Parent = build
+
+troll.Name = "troll"
+troll.Parent = TabFrame
+troll.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+troll.BackgroundTransparency = 0.300
+troll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+troll.BorderSizePixel = 0
+troll.Size = UDim2.new(0, 200, 0, 50)
+troll.Font = Enum.Font.SourceSans
+troll.Text = "Troll"
+troll.TextColor3 = Color3.fromRGB(255, 255, 255)
+troll.TextSize = 22.000
+troll.TextStrokeTransparency = 0.300
+
+UICorner_3.CornerRadius = UDim.new(0, 12)
+UICorner_3.Parent = troll
+
+teleport.Name = "teleport"
+teleport.Parent = TabFrame
+teleport.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+teleport.BackgroundTransparency = 0.300
+teleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+teleport.BorderSizePixel = 0
+teleport.Size = UDim2.new(0, 200, 0, 50)
+teleport.Font = Enum.Font.SourceSans
+teleport.Text = "Teleport"
+teleport.TextColor3 = Color3.fromRGB(255, 255, 255)
+teleport.TextSize = 22.000
+teleport.TextStrokeTransparency = 0.300
+
+UICorner_4.CornerRadius = UDim.new(0, 12)
+UICorner_4.Parent = teleport
+
+TextButton.Parent = TabFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton.BackgroundTransparency = 0.300
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 22.000
+TextButton.TextStrokeTransparency = 0.300
+
+UICorner_5.CornerRadius = UDim.new(0, 12)
+UICorner_5.Parent = TextButton
+
+TextButton_2.Parent = TabFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton_2.BackgroundTransparency = 0.300
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 22.000
+TextButton_2.TextStrokeTransparency = 0.300
+
+UICorner_6.CornerRadius = UDim.new(0, 12)
+UICorner_6.Parent = TextButton_2
+
+MoneyFrame.Name = "MoneyFrame"
+MoneyFrame.Parent = ActiveFrame
+MoneyFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoneyFrame.BackgroundTransparency = 1.000
+MoneyFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MoneyFrame.BorderSizePixel = 0
+MoneyFrame.Position = UDim2.new(0.22449021, 0, 0.152542368, 0)
+MoneyFrame.Size = UDim2.new(0, 333, 0, 239)
+MoneyFrame.Visible = false
+
+UIGridLayout_2.Parent = MoneyFrame
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellPadding = UDim2.new(0, 15, 0, 10)
+UIGridLayout_2.CellSize = UDim2.new(0, 100, 0, 40)
+
+farm1.Name = "farm1"
+farm1.Parent = MoneyFrame
+farm1.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+farm1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+farm1.BorderSizePixel = 0
+farm1.Size = UDim2.new(0, 200, 0, 50)
+farm1.Font = Enum.Font.SourceSans
+farm1.Text = "AFK Farm"
+farm1.TextColor3 = Color3.fromRGB(255, 255, 255)
+farm1.TextSize = 18.000
+farm1.TextStrokeTransparency = 0.300
+
+farm2.Name = "farm2"
+farm2.Parent = MoneyFrame
+farm2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+farm2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+farm2.BorderSizePixel = 0
+farm2.Size = UDim2.new(0, 200, 0, 50)
+farm2.Font = Enum.Font.SourceSans
+farm2.Text = "Collect Oil"
+farm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+farm2.TextSize = 18.000
+farm2.TextStrokeTransparency = 0.300
+
+farm3.Name = "farm3"
+farm3.Parent = MoneyFrame
+farm3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+farm3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+farm3.BorderSizePixel = 0
+farm3.Size = UDim2.new(0, 200, 0, 50)
+farm3.Font = Enum.Font.SourceSans
+farm3.Text = "Collect Airdrops"
+farm3.TextColor3 = Color3.fromRGB(255, 255, 255)
+farm3.TextSize = 18.000
+farm3.TextStrokeTransparency = 0.300
+
+farm4.Name = "farm4"
+farm4.Parent = MoneyFrame
+farm4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+farm4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+farm4.BorderSizePixel = 0
+farm4.Size = UDim2.new(0, 200, 0, 50)
+farm4.Visible = false
+farm4.Font = Enum.Font.SourceSans
+farm4.TextColor3 = Color3.fromRGB(255, 255, 255)
+farm4.TextSize = 18.000
+farm4.TextStrokeTransparency = 0.300
+
+TextButton_3.Parent = MoneyFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Visible = false
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 18.000
+TextButton_3.TextStrokeTransparency = 0.300
+
+farm5.Name = "farm5"
+farm5.Parent = MoneyFrame
+farm5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+farm5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+farm5.BorderSizePixel = 0
+farm5.Size = UDim2.new(0, 200, 0, 50)
+farm5.Visible = false
+farm5.Font = Enum.Font.SourceSans
+farm5.TextColor3 = Color3.fromRGB(255, 255, 255)
+farm5.TextSize = 18.000
+farm5.TextStrokeTransparency = 0.300
+
+TextButton_4.Parent = MoneyFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Size = UDim2.new(0, 200, 0, 50)
+TextButton_4.Visible = false
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 18.000
+TextButton_4.TextStrokeTransparency = 0.300
+
+TextButton_5.Parent = MoneyFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Visible = false
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 18.000
+TextButton_5.TextStrokeTransparency = 0.300
+
+TextButton_6.Parent = MoneyFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Visible = false
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 18.000
+TextButton_6.TextStrokeTransparency = 0.300
+
+TextButton_7.Parent = MoneyFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Visible = false
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 18.000
+TextButton_7.TextStrokeTransparency = 0.300
+
+TextButton_8.Parent = MoneyFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Size = UDim2.new(0, 200, 0, 50)
+TextButton_8.Visible = false
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 18.000
+TextButton_8.TextStrokeTransparency = 0.300
+
+TextButton_9.Parent = MoneyFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Size = UDim2.new(0, 200, 0, 50)
+TextButton_9.Visible = false
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 18.000
+TextButton_9.TextStrokeTransparency = 0.300
+
+TextButton_10.Parent = MoneyFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Size = UDim2.new(0, 200, 0, 50)
+TextButton_10.Visible = false
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 18.000
+TextButton_10.TextStrokeTransparency = 0.300
+
+TextButton_11.Parent = MoneyFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Size = UDim2.new(0, 200, 0, 50)
+TextButton_11.Visible = false
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextSize = 18.000
+TextButton_11.TextStrokeTransparency = 0.300
+
+TextButton_12.Parent = MoneyFrame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Size = UDim2.new(0, 200, 0, 50)
+TextButton_12.Visible = false
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextSize = 18.000
+TextButton_12.TextStrokeTransparency = 0.300
+
+BuildFrame.Name = "BuildFrame"
+BuildFrame.Parent = ActiveFrame
+BuildFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BuildFrame.BackgroundTransparency = 1.000
+BuildFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BuildFrame.BorderSizePixel = 0
+BuildFrame.Position = UDim2.new(0.22449021, 0, 0.152542368, 0)
+BuildFrame.Size = UDim2.new(0, 333, 0, 239)
+
+UIGridLayout_3.Parent = BuildFrame
+UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_3.CellPadding = UDim2.new(0, 15, 0, 10)
+UIGridLayout_3.CellSize = UDim2.new(0, 100, 0, 40)
+
+build1.Name = "build1"
+build1.Parent = BuildFrame
+build1.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build1.BorderSizePixel = 0
+build1.Size = UDim2.new(0, 200, 0, 50)
+build1.Font = Enum.Font.SourceSans
+build1.Text = "Flag"
+build1.TextColor3 = Color3.fromRGB(255, 255, 255)
+build1.TextSize = 18.000
+build1.TextStrokeTransparency = 0.300
+
+build2.Name = "build2"
+build2.Parent = BuildFrame
+build2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build2.BorderSizePixel = 0
+build2.Size = UDim2.new(0, 200, 0, 50)
+build2.Font = Enum.Font.SourceSans
+build2.Text = "Good Word"
+build2.TextColor3 = Color3.fromRGB(255, 255, 255)
+build2.TextSize = 18.000
+build2.TextStrokeTransparency = 0.300
+
+build3.Name = "build3"
+build3.Parent = BuildFrame
+build3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build3.BorderSizePixel = 0
+build3.Size = UDim2.new(0, 200, 0, 50)
+build3.Font = Enum.Font.SourceSans
+build3.Text = "Project"
+build3.TextColor3 = Color3.fromRGB(255, 255, 255)
+build3.TextSize = 18.000
+build3.TextStrokeTransparency = 0.300
+
+build4.Name = "build4"
+build4.Parent = BuildFrame
+build4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build4.BorderSizePixel = 0
+build4.Size = UDim2.new(0, 200, 0, 50)
+build4.Font = Enum.Font.SourceSans
+build4.Text = "Finger"
+build4.TextColor3 = Color3.fromRGB(255, 255, 255)
+build4.TextSize = 18.000
+build4.TextStrokeTransparency = 0.300
+
+build5.Name = "build5"
+build5.Parent = BuildFrame
+build5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build5.BorderSizePixel = 0
+build5.Size = UDim2.new(0, 200, 0, 50)
+build5.Font = Enum.Font.SourceSans
+build5.Text = "Rocket"
+build5.TextColor3 = Color3.fromRGB(255, 255, 255)
+build5.TextSize = 18.000
+build5.TextStrokeTransparency = 0.300
+
+build6.Name = "build6"
+build6.Parent = BuildFrame
+build6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build6.BorderSizePixel = 0
+build6.Size = UDim2.new(0, 200, 0, 50)
+build6.Font = Enum.Font.SourceSans
+build6.Text = "Admin Eat"
+build6.TextColor3 = Color3.fromRGB(255, 255, 255)
+build6.TextSize = 18.000
+build6.TextStrokeTransparency = 0.300
+
+build7.Name = "build7"
+build7.Parent = BuildFrame
+build7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build7.BorderSizePixel = 0
+build7.Size = UDim2.new(0, 200, 0, 50)
+build7.Font = Enum.Font.SourceSans
+build7.Text = "IFHN"
+build7.TextColor3 = Color3.fromRGB(255, 255, 255)
+build7.TextSize = 18.000
+build7.TextStrokeTransparency = 0.300
+
+build8.Name = "build8"
+build8.Parent = BuildFrame
+build8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build8.BorderSizePixel = 0
+build8.Position = UDim2.new(0.342342347, 0, 0.418410033, 0)
+build8.Size = UDim2.new(0, 200, 0, 50)
+build8.Visible = false
+build8.Font = Enum.Font.SourceSans
+build8.TextColor3 = Color3.fromRGB(255, 255, 255)
+build8.TextSize = 18.000
+build8.TextStrokeTransparency = 0.300
+
+build9.Name = "build9"
+build9.Parent = BuildFrame
+build9.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build9.BorderSizePixel = 0
+build9.Position = UDim2.new(0.687687695, 0, 0.418410033, 0)
+build9.Size = UDim2.new(0, 200, 0, 50)
+build9.Visible = false
+build9.Font = Enum.Font.SourceSans
+build9.TextColor3 = Color3.fromRGB(255, 255, 255)
+build9.TextSize = 18.000
+build9.TextStrokeTransparency = 0.300
+
+build10.Name = "build10"
+build10.Parent = BuildFrame
+build10.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build10.BorderSizePixel = 0
+build10.Position = UDim2.new(-0.00300300308, 0, 0.627615035, 0)
+build10.Size = UDim2.new(0, 200, 0, 50)
+build10.Visible = false
+build10.Font = Enum.Font.SourceSans
+build10.TextColor3 = Color3.fromRGB(255, 255, 255)
+build10.TextSize = 18.000
+build10.TextStrokeTransparency = 0.300
+
+build11.Name = "build11"
+build11.Parent = BuildFrame
+build11.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build11.BorderSizePixel = 0
+build11.Position = UDim2.new(0.342342347, 0, 0.627615035, 0)
+build11.Size = UDim2.new(0, 200, 0, 50)
+build11.Visible = false
+build11.Font = Enum.Font.SourceSans
+build11.TextColor3 = Color3.fromRGB(255, 255, 255)
+build11.TextSize = 18.000
+build11.TextStrokeTransparency = 0.300
+
+build12.Name = "build12"
+build12.Parent = BuildFrame
+build12.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build12.BorderSizePixel = 0
+build12.Position = UDim2.new(0.687687695, 0, 0.627615035, 0)
+build12.Size = UDim2.new(0, 200, 0, 50)
+build12.Visible = false
+build12.Font = Enum.Font.SourceSans
+build12.TextColor3 = Color3.fromRGB(255, 255, 255)
+build12.TextSize = 18.000
+build12.TextStrokeTransparency = 0.300
+
+build13.Name = "build13"
+build13.Parent = BuildFrame
+build13.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build13.BorderSizePixel = 0
+build13.Position = UDim2.new(-0.00300300308, 0, 0.836820066, 0)
+build13.Size = UDim2.new(0, 200, 0, 50)
+build13.Visible = false
+build13.Font = Enum.Font.SourceSans
+build13.TextColor3 = Color3.fromRGB(255, 255, 255)
+build13.TextSize = 18.000
+build13.TextStrokeTransparency = 0.300
+
+build14.Name = "build14"
+build14.Parent = BuildFrame
+build14.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build14.BorderSizePixel = 0
+build14.Position = UDim2.new(0.342342347, 0, 0.836820066, 0)
+build14.Size = UDim2.new(0, 200, 0, 50)
+build14.Visible = false
+build14.Font = Enum.Font.SourceSans
+build14.TextColor3 = Color3.fromRGB(255, 255, 255)
+build14.TextSize = 18.000
+build14.TextStrokeTransparency = 0.300
+
+build15.Name = "build15"
+build15.Parent = BuildFrame
+build15.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+build15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+build15.BorderSizePixel = 0
+build15.Position = UDim2.new(0.687687695, 0, 0.836820066, 0)
+build15.Size = UDim2.new(0, 200, 0, 50)
+build15.Visible = false
+build15.Font = Enum.Font.SourceSans
+build15.TextColor3 = Color3.fromRGB(255, 255, 255)
+build15.TextSize = 18.000
+build15.TextStrokeTransparency = 0.300
+
+TrollFrame.Name = "TrollFrame"
+TrollFrame.Parent = ActiveFrame
+TrollFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TrollFrame.BackgroundTransparency = 1.000
+TrollFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TrollFrame.BorderSizePixel = 0
+TrollFrame.Position = UDim2.new(0.22449021, 0, 0.152542368, 0)
+TrollFrame.Size = UDim2.new(0, 333, 0, 239)
+TrollFrame.Visible = false
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = TrollFrame
+PlayerName.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+PlayerName.BackgroundTransparency = 0.200
+PlayerName.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.Position = UDim2.new(0.138138145, 0, -0.0962343067, 0)
+PlayerName.Size = UDim2.new(0, 245, 0, 34)
+PlayerName.Font = Enum.Font.SourceSans
+PlayerName.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.PlaceholderText = "Player Name"
+PlayerName.Text = ""
+PlayerName.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.TextSize = 22.000
+PlayerName.TextStrokeTransparency = 0.200
+
+trap.Name = "trap"
+trap.Parent = TrollFrame
+trap.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+trap.BorderColor3 = Color3.fromRGB(0, 0, 0)
+trap.BorderSizePixel = 0
+trap.Position = UDim2.new(0.138138145, 0, 0.15481171, 0)
+trap.Size = UDim2.new(0, 113, 0, 38)
+trap.Font = Enum.Font.SourceSans
+trap.Text = "Trap"
+trap.TextColor3 = Color3.fromRGB(255, 255, 255)
+trap.TextSize = 22.000
+trap.TextStrokeTransparency = 0.000
+
+view.Name = "view"
+view.Parent = TrollFrame
+view.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+view.BorderColor3 = Color3.fromRGB(0, 0, 0)
+view.BorderSizePixel = 0
+view.Position = UDim2.new(0.537537515, 0, 0.15481171, 0)
+view.Size = UDim2.new(0, 112, 0, 38)
+view.Font = Enum.Font.SourceSans
+view.Text = "View"
+view.TextColor3 = Color3.fromRGB(255, 0, 0)
+view.TextSize = 22.000
+view.TextStrokeTransparency = 0.000
+
+tpto.Name = "tpto"
+tpto.Parent = TrollFrame
+tpto.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tpto.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tpto.BorderSizePixel = 0
+tpto.Position = UDim2.new(0.138138145, 0, 0.351464421, 0)
+tpto.Size = UDim2.new(0, 113, 0, 38)
+tpto.Font = Enum.Font.SourceSans
+tpto.Text = "Teleport To"
+tpto.TextColor3 = Color3.fromRGB(255, 255, 255)
+tpto.TextSize = 22.000
+tpto.TextStrokeTransparency = 0.000
+
+copyname.Name = "copyname"
+copyname.Parent = TrollFrame
+copyname.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+copyname.BorderColor3 = Color3.fromRGB(0, 0, 0)
+copyname.BorderSizePixel = 0
+copyname.Position = UDim2.new(0.537537515, 0, 0.351464421, 0)
+copyname.Size = UDim2.new(0, 112, 0, 38)
+copyname.Font = Enum.Font.SourceSans
+copyname.Text = "Copy Name"
+copyname.TextColor3 = Color3.fromRGB(255, 255, 255)
+copyname.TextSize = 22.000
+copyname.TextStrokeTransparency = 0.000
+
+TextButton_13.Parent = TrollFrame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(0.138138145, 0, 0.548117161, 0)
+TextButton_13.Size = UDim2.new(0, 113, 0, 38)
+TextButton_13.Visible = false
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "Trap"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextSize = 22.000
+TextButton_13.TextStrokeTransparency = 0.000
+
+TextButton_14.Parent = TrollFrame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(0.537537515, 0, 0.548117161, 0)
+TextButton_14.Size = UDim2.new(0, 112, 0, 38)
+TextButton_14.Visible = false
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Trap"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextSize = 22.000
+TextButton_14.TextStrokeTransparency = 0.000
+
+TextButton_15.Parent = TrollFrame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(0.138138145, 0, 0.744769871, 0)
+TextButton_15.Size = UDim2.new(0, 113, 0, 38)
+TextButton_15.Visible = false
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Trap"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextSize = 22.000
+TextButton_15.TextStrokeTransparency = 0.000
+
+TextButton_16.Parent = TrollFrame
+TextButton_16.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(0.537537515, 0, 0.744769871, 0)
+TextButton_16.Size = UDim2.new(0, 112, 0, 38)
+TextButton_16.Visible = false
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "Trap"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextSize = 22.000
+TextButton_16.TextStrokeTransparency = 0.000
+
+TeleportFrame.Name = "TeleportFrame"
+TeleportFrame.Parent = ActiveFrame
+TeleportFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeleportFrame.BackgroundTransparency = 1.000
+TeleportFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeleportFrame.BorderSizePixel = 0
+TeleportFrame.Position = UDim2.new(0.22449021, 0, 0.152542368, 0)
+TeleportFrame.Size = UDim2.new(0, 333, 0, 239)
+TeleportFrame.Visible = false
+
+UIGridLayout_4.Parent = TeleportFrame
+UIGridLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_4.CellPadding = UDim2.new(0, 15, 0, 10)
+UIGridLayout_4.CellSize = UDim2.new(0, 100, 0, 40)
+
+tp1.Name = "tp1"
+tp1.Parent = TeleportFrame
+tp1.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp1.BorderSizePixel = 0
+tp1.Size = UDim2.new(0, 200, 0, 50)
+tp1.Font = Enum.Font.SourceSans
+tp1.Text = "Build Store"
+tp1.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp1.TextSize = 16.000
+tp1.TextStrokeTransparency = 0.000
+
+tp2.Name = "tp2"
+tp2.Parent = TeleportFrame
+tp2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp2.BorderSizePixel = 0
+tp2.Size = UDim2.new(0, 200, 0, 50)
+tp2.Font = Enum.Font.SourceSans
+tp2.Text = "Village"
+tp2.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp2.TextSize = 16.000
+tp2.TextStrokeTransparency = 0.000
+
+tp3.Name = "tp3"
+tp3.Parent = TeleportFrame
+tp3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp3.BorderSizePixel = 0
+tp3.Size = UDim2.new(0, 200, 0, 50)
+tp3.Font = Enum.Font.SourceSans
+tp3.Text = "Business Man"
+tp3.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp3.TextSize = 16.000
+tp3.TextStrokeTransparency = 0.000
+
+tp4.Name = "tp4"
+tp4.Parent = TeleportFrame
+tp4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp4.BorderSizePixel = 0
+tp4.Size = UDim2.new(0, 200, 0, 50)
+tp4.Font = Enum.Font.SourceSans
+tp4.Text = "Agriculture Shop"
+tp4.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp4.TextSize = 16.000
+tp4.TextStrokeTransparency = 0.000
+
+tp5.Name = "tp5"
+tp5.Parent = TeleportFrame
+tp5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp5.BorderSizePixel = 0
+tp5.Size = UDim2.new(0, 200, 0, 50)
+tp5.Font = Enum.Font.SourceSans
+tp5.Text = "Car Shop"
+tp5.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp5.TextSize = 16.000
+tp5.TextStrokeTransparency = 0.000
+
+tp6.Name = "tp6"
+tp6.Parent = TeleportFrame
+tp6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp6.BorderSizePixel = 0
+tp6.Size = UDim2.new(0, 200, 0, 50)
+tp6.Font = Enum.Font.SourceSans
+tp6.Text = "Tallest Mountain"
+tp6.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp6.TextSize = 16.000
+tp6.TextStrokeTransparency = 0.000
+
+tp7.Name = "tp7"
+tp7.Parent = TeleportFrame
+tp7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp7.BorderSizePixel = 0
+tp7.Size = UDim2.new(0, 200, 0, 50)
+tp7.Font = Enum.Font.SourceSans
+tp7.Text = "Trap Shop"
+tp7.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp7.TextSize = 16.000
+tp7.TextStrokeTransparency = 0.000
+
+tp8.Name = "tp8"
+tp8.Parent = TeleportFrame
+tp8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp8.BorderSizePixel = 0
+tp8.Size = UDim2.new(0, 200, 0, 50)
+tp8.Font = Enum.Font.SourceSans
+tp8.Text = "Graveyard"
+tp8.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp8.TextSize = 16.000
+tp8.TextStrokeTransparency = 0.000
+
+tp9.Name = "tp9"
+tp9.Parent = TeleportFrame
+tp9.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp9.BorderSizePixel = 0
+tp9.Position = UDim2.new(0.684684694, 0, 0.418410033, 0)
+tp9.Size = UDim2.new(0, 200, 0, 50)
+tp9.Font = Enum.Font.SourceSans
+tp9.Text = "Printer Shop"
+tp9.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp9.TextSize = 16.000
+tp9.TextStrokeTransparency = 0.000
+
+tp10.Name = "tp10"
+tp10.Parent = TeleportFrame
+tp10.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp10.BorderSizePixel = 0
+tp10.Size = UDim2.new(0, 200, 0, 50)
+tp10.Font = Enum.Font.SourceSans
+tp10.Text = "Afghan Shop"
+tp10.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp10.TextSize = 16.000
+tp10.TextStrokeTransparency = 0.000
+
+tp11.Name = "tp11"
+tp11.Parent = TeleportFrame
+tp11.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+tp11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp11.BorderSizePixel = 0
+tp11.Size = UDim2.new(0, 200, 0, 50)
+tp11.Font = Enum.Font.SourceSans
+tp11.Text = "Kings Throne"
+tp11.TextColor3 = Color3.fromRGB(255, 255, 255)
+tp11.TextSize = 16.000
+tp11.TextStrokeTransparency = 0.000
+
+TextButton_17.Parent = TeleportFrame
+TextButton_17.Active = false
+TextButton_17.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.BorderSizePixel = 0
+TextButton_17.Size = UDim2.new(0, 200, 0, 50)
+TextButton_17.Visible = false
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.TextSize = 16.000
+TextButton_17.TextStrokeTransparency = 0.000
+
+TextButton_18.Parent = TeleportFrame
+TextButton_18.Active = false
+TextButton_18.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.BorderSizePixel = 0
+TextButton_18.Size = UDim2.new(0, 200, 0, 50)
+TextButton_18.Visible = false
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.TextSize = 16.000
+TextButton_18.TextStrokeTransparency = 0.000
+
+TextButton_19.Parent = TeleportFrame
+TextButton_19.Active = false
+TextButton_19.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BorderSizePixel = 0
+TextButton_19.Size = UDim2.new(0, 200, 0, 50)
+TextButton_19.Visible = false
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.TextSize = 16.000
+TextButton_19.TextStrokeTransparency = 0.000
+
+TextButton_20.Parent = TeleportFrame
+TextButton_20.Active = false
+TextButton_20.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.BorderSizePixel = 0
+TextButton_20.Size = UDim2.new(0, 200, 0, 50)
+TextButton_20.Visible = false
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.TextSize = 16.000
+TextButton_20.TextStrokeTransparency = 0.000
+
+Title.Name = "Title"
+Title.Parent = TopFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 2.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(-0.00453500915, 0, 0, 0)
+Title.Size = UDim2.new(0, 441, 0, 39)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Divinity"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 28.000
+Title.TextStrokeTransparency = 0.300
+Title.TextWrapped = true
+
+Minimize.Name = "Minimize"
+Minimize.Parent = TopFrame
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Minimize.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.BorderSizePixel = 0
+Minimize.Position = UDim2.new(0.827664554, 0, 0.177574739, 0)
+Minimize.Size = UDim2.new(0, 25, 0, 24)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = ""
+Minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(0, 20)
+UICorner_7.Parent = Minimize
+
+Close.Name = "Close"
+Close.Parent = TopFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.913832366, 0, 0.177574739, 0)
+Close.Size = UDim2.new(0, 25, 0, 24)
+Close.Font = Enum.Font.SourceSans
+Close.Text = ""
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+UICorner_8.CornerRadius = UDim.new(0, 20)
+UICorner_8.Parent = Close
+
+Maximize.Name = "Maximize"
+Maximize.Parent = TopFrame
+Maximize.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+Maximize.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Maximize.BorderSizePixel = 0
+Maximize.Position = UDim2.new(0.827664554, 0, 0.177574739, 0)
+Maximize.Size = UDim2.new(0, 25, 0, 24)
+Maximize.Visible = false
+Maximize.Font = Enum.Font.SourceSans
+Maximize.Text = ""
+Maximize.TextColor3 = Color3.fromRGB(0, 0, 0)
+Maximize.TextSize = 14.000
+
+UICorner_9.CornerRadius = UDim.new(0, 20)
+UICorner_9.Parent = Maximize
+
+-- Scripts:
+
+local function GGBEO_fake_script() -- money.LocalScript 
+	local script = Instance.new('LocalScript', money)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.MoneyFrame.Visible = true
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.BuildFrame.Visible = false
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TrollFrame.Visible = false
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TeleportFrame.Visible = false
+	end)
+end
+coroutine.wrap(GGBEO_fake_script)()
+local function HWTICTS_fake_script() -- build.LocalScript 
+	local script = Instance.new('LocalScript', build)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.BuildFrame.Visible = true
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.MoneyFrame.Visible = false
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TrollFrame.Visible = false
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TeleportFrame.Visible = false
+	end)
+end
+coroutine.wrap(HWTICTS_fake_script)()
+local function RYEXLRS_fake_script() -- troll.LocalScript 
+	local script = Instance.new('LocalScript', troll)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TrollFrame.Visible = true
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.MoneyFrame.Visible = false
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.BuildFrame.Visible = false
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TeleportFrame.Visible = false
+	end)
+end
+coroutine.wrap(RYEXLRS_fake_script)()
+local function DMQKDIN_fake_script() -- teleport.LocalScript 
+	local script = Instance.new('LocalScript', teleport)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TeleportFrame.Visible = true
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.MoneyFrame.Visible = false
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.BuildFrame.Visible = false
+		game:GetService("Players").LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TrollFrame.Visible = false
+	end)
+end
+coroutine.wrap(DMQKDIN_fake_script)()
+local function NLQJD_fake_script() -- farm1.LocalScript 
+	local script = Instance.new('LocalScript', farm1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for _,v in pairs(workspace:GetDescendants()) do
+			if v:IsA("Part") and v.CFrame == CFrame.new(-176.59967, 1.10000002, -85.3500977, 0, 0, 1, 0, 1, -0, -1, 0, 0) then
+				v.Name = "SellBoxMain"
+			end
+		end
+	
+		game:GetService("RunService").RenderStepped:Connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-238.06640625, 7.619274139404297, -138.42117309570312)
+			wait(.2)
+			fireproximityprompt(workspace.TestBox.TestBoxProximity, 1, true)
+			wait()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-176.1246337890625, 2.999999523162842, -82.35733795166016)
+			wait(.2)
+			fireproximityprompt(workspace.SellBoxMain.SellBox, 1, true)
+		end)
+	end)
+end
+coroutine.wrap(NLQJD_fake_script)()
+local function OYMCOTD_fake_script() -- farm2.LocalScript 
+	local script = Instance.new('LocalScript', farm2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Change names
+		for _,v in pairs(workspace:GetDescendants()) do
+			if v:IsA("ProximityPrompt") and v.Parent.Name == "Union" and v.Parent.Parent.Name ~= "Water" then
+				v.Parent.Name = "OilSteal"
+			end
+		end
+		wait(.2)
+		-- Position 1
+		local pos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		for i = 1,2 do wait(.3)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-344.3139953613281, 229.00274658203125, 685.6038208007812)
+			wait(.2)
+			for _,v in pairs(workspace:GetDescendants()) do
+				if v:IsA("ProximityPrompt") and v.Parent.Name == "OilSteal" then
+					if game.Players.LocalPlayer:DistanceFromCharacter(v.Parent.Position) <= 100000 then
+						fireproximityprompt(v, 1, true)
+					end
+				end
+			end
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(88.75052642822266, 2.999999761581421, 533.1331787109375)
+			wait(.2)
+			if game.Players.LocalPlayer.Backpack:FindFirstChild("Oilbarrel Full") then
+				game.Players.LocalPlayer.Backpack["Oilbarrel Full"].Parent = game.Players.LocalPlayer.Character
+			end
+			wait(.2)
+			fireproximityprompt(workspace["NPCs Proximities"].OilSell.ProximityPrompt, 1, true)
+		end
+		wait(.3)
+		-- Position 2
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-243.50912475585938, 229.00250244140625, 688.4677124023438)
+		wait(.2)
+		for _,v in pairs(workspace:GetDescendants()) do
+			if v:IsA("ProximityPrompt") and v.Parent.Name == "OilSteal" then
+				if game.Players.LocalPlayer:DistanceFromCharacter(v.Parent.Position) <= 100000 then
+					fireproximityprompt(v, 1, true)
+				end
+			end
+		end
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(88.75052642822266, 2.999999761581421, 533.1331787109375)
+		wait(.2)
+		if game.Players.LocalPlayer.Backpack:FindFirstChild("Oilbarrel Full") then
+			game.Players.LocalPlayer.Backpack["Oilbarrel Full"].Parent = game.Players.LocalPlayer.Character
+		end
+		wait(.2)
+		fireproximityprompt(workspace["NPCs Proximities"].OilSell.ProximityPrompt, 1, true)
+		-- Position 3
+		wait(.3)
+		for i = 1,2 do wait(.3)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-284.5922546386719, 229.0027618408203, 696.7586059570312)
+			wait(.2)
+			for _,v in pairs(workspace:GetDescendants()) do
+				if v:IsA("ProximityPrompt") and v.Parent.Name == "OilSteal" then
+					if game.Players.LocalPlayer:DistanceFromCharacter(v.Parent.Position) <= 100000 then
+						fireproximityprompt(v, 1, true)
+					end
+				end
+			end
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(88.75052642822266, 2.999999761581421, 533.1331787109375)
+			wait(.2)
+			if game.Players.LocalPlayer.Backpack:FindFirstChild("Oilbarrel Full") then
+				game.Players.LocalPlayer.Backpack["Oilbarrel Full"].Parent = game.Players.LocalPlayer.Character
+			end
+			wait(.2)
+			fireproximityprompt(workspace["NPCs Proximities"].OilSell.ProximityPrompt, 1, true)
+		end
+		wait()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+	end)
+end
+coroutine.wrap(OYMCOTD_fake_script)()
+local function WAOPLD_fake_script() -- farm3.LocalScript 
+	local script = Instance.new('LocalScript', farm3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local pos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		for _,v in pairs(game.workspace:GetDescendants()) do
+			if v.Name == "Drop" then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Crate.Center.CFrame
+				wait(.2)
+				fireproximityprompt(v.Crate.Center.ProximityPrompt, 1, true)
+			end
+		end
+		wait()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+	end)
+end
+coroutine.wrap(WAOPLD_fake_script)()
+local function JIWTDZ_fake_script() -- build1.LocalScript 
+	local script = Instance.new('LocalScript', build1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/flag"))()
+	end)
+end
+coroutine.wrap(JIWTDZ_fake_script)()
+local function VQBSCV_fake_script() -- build2.LocalScript 
+	local script = Instance.new('LocalScript', build2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/n"))()
+	end)
+end
+coroutine.wrap(VQBSCV_fake_script)()
+local function ZGRC_fake_script() -- build3.LocalScript 
+	local script = Instance.new('LocalScript', build3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/project"))()
+	end)
+end
+coroutine.wrap(ZGRC_fake_script)()
+local function EHGHIN_fake_script() -- build4.LocalScript 
+	local script = Instance.new('LocalScript', build4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/fdu"))()
+	end)
+end
+coroutine.wrap(EHGHIN_fake_script)()
+local function EHMSU_fake_script() -- build5.LocalScript 
+	local script = Instance.new('LocalScript', build5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/pp"))()
+	end)
+end
+coroutine.wrap(EHMSU_fake_script)()
+local function UMMN_fake_script() -- build6.LocalScript 
+	local script = Instance.new('LocalScript', build6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/aaes"))()
+	end)
+end
+coroutine.wrap(UMMN_fake_script)()
+local function SRVA_fake_script() -- build7.LocalScript 
+	local script = Instance.new('LocalScript', build7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/hn1"))()
+		wait(1)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/build1/refs/heads/main/hn2"))()
+	end)
+end
+coroutine.wrap(SRVA_fake_script)()
+local function CBMLZ_fake_script() -- PlayerName.Autofill 
+	local script = Instance.new('LocalScript', PlayerName)
+
+	local PlayerName = script.Parent
+	
+	PlayerName.FocusLost:Connect(function()
+		for i,v in next, game:GetService("Players"):GetPlayers() do
+			if v.Name:lower():match('^'..PlayerName.Text:lower()) or v.DisplayName:lower():match('^'..PlayerName.Text:lower()) then
+				PlayerName.Text = v.Name
+			end
+		end
+	end)
+end
+coroutine.wrap(CBMLZ_fake_script)()
+local function FKYV_fake_script() -- trap.LocalScript 
+	local script = Instance.new('LocalScript', trap)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if game.Players.LocalPlayer.Backpack:FindFirstChild("BlockTools") then
+			for _,v in pairs(game.Players.LocalPlayer.Backpack:GetDescendants()) do
+				if v.Name == "BlockTools" then
+					v.Parent = game.Players.LocalPlayer.Character
+				end
+			end
+		end
+		local plr = game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TrollFrame.PlayerName.Text
+		-- Top1
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,0))
+		-- Top2
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,-8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,8,8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,8,8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,8,-8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,8,-8))
+		-- Bottom1
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-8,0))
+		-- Bottom2
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-8,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-8,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-8,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-8,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-8,-8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-8,8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-8,8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-8,-8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-8,-8))
+		-- Front / Back
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-6,-8))
+		-- Sides
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,0))
+		-- Corners1
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,-8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,-6))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,-4))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,-2))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,0))
+		-- Corners2
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,-8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,8,-8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,8,-8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,8,-8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,-8))
+		-- Corners3
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-6,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(6,8,8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-4,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(4,8,8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-2,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(2,8,8))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,-2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,0,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,2,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,2,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,4,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,4,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,6,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,6,8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,-8))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(0,8,8))
+		-- Corners4
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,-6))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,6))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,-4))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,4))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,-2))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,2))
+		--
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,-2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,-2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,0,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,0,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,2,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,4,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,6,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(-8,8,0))
+		game:GetService("ReplicatedStorage").NrANkuyIc5KfeR4RdAxwCdZBch1yXu:FireServer("lX4sh0KQ80yq8SzLlIOUzAwR4T4Bfj", "BlockTools", game.Players[plr].Character.HumanoidRootPart.CFrame * CFrame.new(8,8,0))		
+		--
+		if game.Players.LocalPlayer.Character:FindFirstChild("BlockTools") then
+			for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				if v.Name == "BlockTools" then
+					v.Parent = game.Players.LocalPlayer.Backpack
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(FKYV_fake_script)()
+local function GGZMGJ_fake_script() -- view.LocalScript 
+	local script = Instance.new('LocalScript', view)
+
+	local toggle_view = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TrollFrame.PlayerName.Text
+		toggle_view = not toggle_view
+		if toggle_view then
+			script.Parent.Text = "Unview"
+			script.Parent.TextColor3 = Color3.new(0, 1, 0)
+			--
+			if game.Players[plr] and game.Players[plr].Character and game.Players[plr].Character:FindFirstChild("HumanoidRootPart") then
+				workspace.CurrentCamera.CameraSubject = game.Players[plr].Character.Humanoid
+			end
+		else
+			script.Parent.Text = "View"
+			script.Parent.TextColor3 = Color3.new(1, 0, 0)
+			--
+			workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+		end
+	end)
+end
+coroutine.wrap(GGZMGJ_fake_script)()
+local function IVFYCBI_fake_script() -- tpto.LocalScript 
+	local script = Instance.new('LocalScript', tpto)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TrollFrame.PlayerName.Text
+		if plr == game.Players.LocalPlayer.Name then
+			print("Can't Teleport To Self")
+		else
+			if game.Players[plr].Character:FindFirstChild("HumanoidRootPart") then
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[plr].Character.HumanoidRootPart.CFrame
+			end
+		end
+	end)
+end
+coroutine.wrap(IVFYCBI_fake_script)()
+local function WUWWI_fake_script() -- copyname.LocalScript 
+	local script = Instance.new('LocalScript', copyname)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		setclipboard(game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.TrollFrame.PlayerName.Text)
+	end)
+end
+coroutine.wrap(WUWWI_fake_script)()
+local function SRKH_fake_script() -- tp1.LocalScript 
+	local script = Instance.new('LocalScript', tp1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(554.0108642578125, 110.39511108398438, 654.689453125)
+	end)
+end
+coroutine.wrap(SRKH_fake_script)()
+local function QMLM_fake_script() -- tp2.LocalScript 
+	local script = Instance.new('LocalScript', tp2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-130.8605499267578, 2.9999992847442627, -143.34552001953125)
+	end)
+end
+coroutine.wrap(QMLM_fake_script)()
+local function YBYAQRL_fake_script() -- tp3.LocalScript 
+	local script = Instance.new('LocalScript', tp3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(274.5707702636719, 3, 680.4274291992188)
+	end)
+end
+coroutine.wrap(YBYAQRL_fake_script)()
+local function HUHIGBO_fake_script() -- tp4.LocalScript 
+	local script = Instance.new('LocalScript', tp4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-320.0450134277344, 15.604766845703125, 346.0688781738281)
+	end)
+end
+coroutine.wrap(HUHIGBO_fake_script)()
+local function FTCSYNT_fake_script() -- tp5.LocalScript 
+	local script = Instance.new('LocalScript', tp5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(22.05930519104004, 3.33622145652771, 683.7430419921875)
+	end)
+end
+coroutine.wrap(FTCSYNT_fake_script)()
+local function DEVKXU_fake_script() -- tp6.LocalScript 
+	local script = Instance.new('LocalScript', tp6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-259.0490417480469, 227.0027313232422, 489.1159973144531)
+	end)
+end
+coroutine.wrap(DEVKXU_fake_script)()
+local function GBXARG_fake_script() -- tp7.LocalScript 
+	local script = Instance.new('LocalScript', tp7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(668.0225219726562, 47.505279541015625, 20.11323356628418)
+	end)
+end
+coroutine.wrap(GBXARG_fake_script)()
+local function DBJI_fake_script() -- tp8.LocalScript 
+	local script = Instance.new('LocalScript', tp8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(908.0208740234375, 2.999999761581421, -174.08912658691406)
+	end)
+end
+coroutine.wrap(DBJI_fake_script)()
+local function PKKYZF_fake_script() -- tp9.LocalScript 
+	local script = Instance.new('LocalScript', tp9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(939.853759765625, 15.60477066040039, 683.2308959960938)
+	end)
+end
+coroutine.wrap(PKKYZF_fake_script)()
+local function MLQUAK_fake_script() -- tp10.LocalScript 
+	local script = Instance.new('LocalScript', tp10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(871.5241088867188, 3.000000238418579, -17.30307388305664)
+	end)
+end
+coroutine.wrap(MLQUAK_fake_script)()
+local function DLCVN_fake_script() -- tp11.LocalScript 
+	local script = Instance.new('LocalScript', tp11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1282.0013427734375, 91.79984283447266, 1318.101806640625)
+	end)
+end
+coroutine.wrap(DLCVN_fake_script)()
+local function GJBJN_fake_script() -- Minimize.LocalScript 
+	local script = Instance.new('LocalScript', Minimize)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.Visible = false
+		game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.Minimize.Visible = false
+		game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.Maximize.Visible = true
+	end)
+end
+coroutine.wrap(GJBJN_fake_script)()
+local function JYODDOP_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.PlayerGui.Divinity:Destroy()
+	end)
+end
+coroutine.wrap(JYODDOP_fake_script)()
+local function ZSLWLZF_fake_script() -- Maximize.LocalScript 
+	local script = Instance.new('LocalScript', Maximize)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.ActiveFrame.Visible = true
+		game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.Maximize.Visible = false
+		game.Players.LocalPlayer.PlayerGui.Divinity.TopFrame.Minimize.Visible = true
+	end)
+end
+coroutine.wrap(ZSLWLZF_fake_script)()
+local function GMCMH_fake_script() -- TopFrame.LocalScript 
+	local script = Instance.new('LocalScript', TopFrame)
+
+	script.Parent.Draggable = true
+end
+coroutine.wrap(GMCMH_fake_script)()
+wait(.3)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DivinityOnTopHidden/trap/refs/heads/main/trap"))()
